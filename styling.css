@@ -105,8 +105,7 @@ body {
     padding: 10px 20px;
     text-decoration: none;
   }
-  
-  /* menu */
+
   
   .header .menu {
     clear: both;
@@ -114,7 +113,7 @@ body {
     transition: 0.2s ease-out;
   }
   
-  /* menu icon */
+
   
   .header .menu-icon {
     cursor: pointer;
@@ -221,13 +220,82 @@ body {
   }
   .vl {
     position: relative;
-    border-left: 3px solid #e0edf9;
-    height: 270px;
-    top: 20px;
+    border-left: 2px solid #e0edf9;
+    height: 210px ;
     margin-left: 10px;
-    padding:10px;
+    padding-left:20px;
     
   }
+  .bl {
+    position: relative;
+    border-left: 2px solid #e0edf9;
+    height: 150px ;
+    top: 53px;
+    padding-left:20px;
+    
+  }
+  .nl {
+    position: relative;
+    border-left: 2px solid #e0edf9;
+    height: 150px ;
+    top: 53px;
+    padding-left:20px;
+    
+  }
+  .jl{
+    position: relative;
+    border-left: 2px solid #e0edf9;
+    height: 150px ;
+    top: 53px;
+    padding-left:20px;
+    
+  }
+  .yl{
+    position: relative;
+    border-left: 2px solid #e0edf9;
+    height: 120px ;
+    top: 53px;
+    padding-left:20px;
+    
+  }
+
+  .zl{
+    position: relative;
+    border-left: 2px solid #e0edf9;
+    height: 70px ;
+    top: 53px;
+    padding-left:20px;
+  }
+  .ol{
+    position: relative;
+    border-left: 2px solid #e0edf9;
+    height: 30px ;
+    top: 53px;
+    padding-left:20px;
+  }
+  .pl{
+    position: relative;
+    border-left: 2px solid #e0edf9;
+    height: 140px ;
+    top: 53px;
+    padding-left:20px; 
+  }
+  .kl{
+    position: relative;
+    border-left: 2px solid #e0edf9;
+    height: 70px ;
+    top: 53px;
+    padding-left:20px; 
+  }
+  .list2{
+    position: relative;
+    bottom: 32px;
+  }
+  .list1{
+    position: relative;
+    top: 19px;
+  }
+
   .cl{
     text-decoration: none;
     color: #000;
@@ -237,3 +305,19 @@ body {
     color: #000;
 
   }
+  .secnd{
+    position: relative;
+    padding-left: 30%;
+    bottom: 280px;
+  }
+ 
+  .nav-footer{
+    list-style-type: none;
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    font-size: 12px;
+    margin: 40px;
+}
+

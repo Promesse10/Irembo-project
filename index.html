@@ -19,6 +19,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="modal.html">
 </head>
 <body>
 
@@ -55,7 +56,7 @@
           </li> 
 
           <li class="nav-item dropdown ml-4  ">
-            <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown"><img src="img/rw-circle-01.png" class="pr-2" width="34px">Kinyarwanda</a>
+            <a class="nav-link dropdown-toggle text-light " href="#" role="button" data-bs-toggle="dropdown"><img src="img/rw-circle-01.png" class="pr-2" width="34px">Kinyarwanda</a>
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="#">English</a></li>
               <li><a class="dropdown-item" href="#">Francais</a></li>
@@ -93,25 +94,237 @@
 <section>
   <div role="alert" class=" lp" style="color: #000000;"><i-alert-circle style="margin-right: 10px;" class="ng-tns-c249-1" _nghost-rcy-c101=""><i class="bi bi-exclamation-circle"></i><circle _ngcontent-rcy-c101="" cx="12" cy="12" r="10"></circle><line></line><line _ngcontent-rcy-c101="" x1="12" y1="16" x2="12" y2="16"></line></svg></i-alert-circle><a rel="noopener noreferrer" target="_blank" style="text-decoration: underline;" class="ng-tns-c249-1" href="https://visitrwandabookings.rdb.rw/rdbportal/web/rdb">Kanda hano</a><strong class="ng-tns-c249-1"> ubone serivisi zose z'ubukerarugendo</strong></div>
  
- <div class="bign">
-  <strong><h5 class="">Umuryango</h5></strong>
-  <div class="vl">
-    
-    <a class="cl" href=""> Icyemezo cy'ubupfakazi </a><br><br>
-    <a class="cl" href=""> Icyemezo cy'uko utuye </a><br><br>
-    <a class="cl" href=""> Icyemezo cy'uwarokotse Jenoside yakorewe Abatutsi mu<br> 1994 </a><br><br>
-    <a class="cl" href=""> Icyemezo cy'uko utuye </a><br><br>
-    <a class="cl" href=""> Icyemezo cy'uko utuye </a>
  
-  </div>
-
- </div> 
-
+  <section >
+    <div class="container">
+      <div class = " row py-4 g-3 text-dark ">
+      <div class = "card border-0 col-md-6 col-lg-4 ">
+      <h2 class=" fs-5 text-muted ">Umuryango</h2>
+        <ul class=" list1 vl">
+         <p><a class=" text-dark cl" data-bs-toggle="modal" href="#exampleModalToggle">Icyemezo cy'ubupfakazi</a></p> 
+         <p> <a class="text-dark cl" href="#">Icyemezo cy'uko utuye</a></p> 
+         <p> <a class="text-dark cl" href="#">Icyemezo cy'uwarokotse Jenoside yakorewe Abatutsi mu 1994</a></p> 
+         <p> <a class="text-dark cl" href="#"> Icyemezo cy'uko uri ingaragu</a></p> 
+         <p> <a class="text-dark cl" href="#">Serivisi z'ubutane</a>    
+         </ul>
+      </div>
+      <div class = "card border-0 col-md-6 col-lg-4 ">
+          <ul class="list2 bl"> 
+           <p><a class="text-dark cl" href="#">Inyandiko yo kwemera umwana</a></p> 
+           <p><a class="text-dark cl" href="#">Inyandiko y'ubwishingire</a></p>
+           <p><a class="text-dark cl" href="#">Icyemezo cy'izungura</a></p>  
+           <p><a class="text-dark cl" href="#">Icyemezo cy'imibanire y'abashyingiranwe</a></p> 
+          </ul>
+      </div>
+      <div class = "card border-0 col-md-6 col-lg-4 ">
+          <ul class="list3 nl">
+            <p><a class="text-dark cl" href="">Serivise z'amavuko</a> </p>
+            <p><a class="text-dark cl" href="#">Serivise z'ishyingirwa</a></p> 
+            <p><a class="text-dark cl" href="#">Serivisi zihabwa uwitabye Imana</a></p>
+            <p><a class="text-dark cl" href="#">Inyandiko yo kubera umubyeyi umwana utabyaye</a></p> 
+          </ul>
+      </div>
+       <!-----------abinjira--------------->
+      <div class = " row py-4 g-3 text-dark ">
+        <div class = "card border-0 col-md-6 col-lg-4 ">
+        <h2 class=" fs-5 text-muted ">Abinjira N'abasohoka</h2>
+          <ul class=" list1 vl">
+           <p><a class=" text-dark cl" data-bs-toggle="modal" href="#exampleModalToggle">Serivisi CEPGL</a></p> 
+           <p> <a class="text-dark cl" href="#">Ubwenegihugu bw'U Rwanda</a></p> 
+           <p> <a class="text-dark cl" href="#">Kwimura Impushya cyangwa Viza
+          </a></p> 
+           <p> <a class="text-dark cl" href="#"> Ubwenegihugu nyarwanda bw'inkomoko</a></p> 
+           <p> <a class="text-dark cl" href="#">Gusubirana ubwenegihugu nyarwanda</a>    
+           </ul>
+        </div>
+        <div class = "card border-0 col-md-6 col-lg-4 ">
+            <ul class="list2 bl"> 
+             <p><a class="text-dark cl" href="#">Indangamuntu y'umunyamahanga</a></p> 
+             <p><a class="text-dark cl" href="#">Icyangombwa cy'inzira cy'umunyamahanga</a></p>
+             <p><a class="text-dark cl" href="#">Kwishyura ibihano</a></p>  
+             <p><a class="text-dark cl" href="#">Kwishyura DPA </a></p>
+        </div>
+        <div class = "card border-0 col-md-6 col-lg-4 ">
+            <ul class="list3 nl">
+              <p><a class="text-dark cl" href="">Gusaba pasiporo mu buryo bw'ikoranabuhanga</a> </p>
+              <p><a class="text-dark cl" href="#">Urwandiko rw'inzira</a></p> 
+              <p><a class="text-dark cl" href="#">Gusaba Viza</a></p>
+              <p><a class="text-dark cl" href="#">Impushya</a></p> 
+            </ul>
+        </div>
+         <!-----------Irangamimerere--------------->   
+         <div class = " row py-4 g-3 text-dark ">
+          <div class = "card border-0 col-md-6 col-lg-4 ">
+          <h2 class=" fs-5 text-muted ">Irangamimerere</h2>
+            <ul class=" list1 jl">
+             <p><a class=" text-dark cl" data-bs-toggle="modal" href="#exampleModalToggle">Icyemezo cyo guhinduza izina</a></p> 
+             <p> <a class="text-dark cl" href="#">Gusaba gukosorerwa Indangamuntu</a></p> 
+             <p> <a class="text-dark cl" href="#">Gusaba Indangamuntu</a></p> 
+             <p> <a class="text-dark cl" href="#"> Gusimbuza Indangamuntu Yatakaye</a></p> 
+              </ul>
+          </div>
+          <div class = "card border-0 col-md-6 col-lg-4 ">
+              <ul class="list2 kl"> 
+               <p><a class="text-dark cl" href="#">Icyemezo gisimbura indangamuntu</a></p> 
+               <p><a class="text-dark cl" href="#">Icyemezo cy'umwirondoro wuzuye</a></p>
+          </div>
+          <div class = "card border-0 col-md-6 col-lg-4 ">
+              <ul class="list3 kl">
+                <p><a class="text-dark cl" href="">Icyemezo cy'ubwenegihugu</a> </p>
+                <p><a class="text-dark cl" href="#">Icyemezo cy'uko umuntu ariho</a></p> 
+              </ul>
+          </div> 
+             <!-----------Ubutaka---------------> 
+             <div class = " row py-4 g-3 text-dark ">
+              <div class = "card border-0 col-md-6 col-lg-4 ">
+              <h2 class=" fs-5 text-muted ">Ubutaka</h2>
+                <ul class=" list1 pl">
+                 <p><a class=" text-dark cl" data-bs-toggle="modal" href="#exampleModalToggle">Gukosoza amakuru mu gitabo cy'inyandiko z'ubutaka</a></p> 
+                 <p> <a class="text-dark cl" href="#">Kwandikisha ubutaka butabaruwe</a></p> 
+                 <p> <a class="text-dark cl" href="#">Gushyira umukono wa Noteri ku masezerano y'inguzanyo</a></p> 
+                </ul>
+              </div>
+              <div class = "card border-0 col-md-6 col-lg-4 ">
+                  <ul class="list2 kl"> 
+                   <p><a class="text-dark cl" href="#">Kugabanya ubutaka</a></p> 
+                   <p><a class="text-dark cl" href="#">Guhindura imikoreshereze y'ubutaka</a></p>
+              </div>
+              <div class = "card border-0 col-md-6 col-lg-4 ">
+                  <ul class="list3 kl">
+                    <p><a class="text-dark cl" href="">Ihererekanya ry'uburenganzira ku butaka</a> </p>
+                    <p><a class="text-dark cl" href="#">Guhuza ubutaka</a></p> 
+                  </ul>
+              </div>
+               <!-----------Polisi--------------->
+               <div class = " row py-4 g-3 text-dark ">
+                <div class = "card border-0 col-md-6 col-lg-4 ">
+                <h2 class=" fs-5 text-muted ">Polisi</h2>
+                  <ul class=" list1 jl">
+                   <p><a class=" text-dark cl" data-bs-toggle="modal" href="#exampleModalToggle">Gusaba kopi y'uruhushya rwo gutwara ibinyabiziga</a></p> 
+                   <p> <a class="text-dark cl" href="#">Kwishyura konterevasiyo</a></p> 
+                   <p> <a class="text-dark cl" href="#">Gusimbuza/Guhinduza uruhushya rwa burundu</a></p> 
+                   <p> <a class="text-dark cl" href="#"> Gusuzumisha ibinyabiziga</a></p> 
+                    </ul>
+                </div>
+                <div class = "card border-0 col-md-6 col-lg-4 ">
+                    <ul class="list2 kl"> 
+                     <p><a class="text-dark cl" href="#">Amanota y'ikizamini cyo gutwara ibinyabiziga</a></p> 
+                     <p><a class="text-dark cl" href="#">Kongera igihe cy'uruhushya rwo gutwara ibinyabiziga</a></p>
+                </div>
+                <div class = "card border-0 col-md-6 col-lg-4 ">
+                    <ul class="list3 kl">
+                      <p><a class="text-dark cl" href="">Guhabwa uruhushya watsindiye</a> </p>
+                      <p><a class="text-dark cl" href="#">Kwiyandikisha gukora ikizamini cyo gutwara ibinyabiziga</a></p> 
+                    </ul>
+                </div>     
+        <!-----------Serivisi Za Noteri Na Serivisi Y'igazeti--------------->
+        <div class = " row py-4 g-3 text-dark ">
+          <div class = "card border-0 col-md-6 col-lg-4 ">
+          <h2 class=" fs-5 text-muted ">Serivisi Za Noteri Na Serivisi Y'igazeti</h2>
+            <ul class=" list1 ol">
+             <p><a class=" text-dark cl" data-bs-toggle="modal" href="#exampleModalToggle">Serivisi zitandukanye za Noteri</a></p> 
+            </ul>
+          </div>
+          <div class = "card border-0 col-md-6 col-lg-4 ">
+            <ul class="list3 ol">
+              <p><a class="text-dark cl" href="">Gutangaza mu Igazeti ya Leta</a> </p>
+             </ul>
+        </div> 
+        <div class = "card border-0 col-md-6 col-lg-4 ">
+          <ul class="list3 ol">
+            <p><a class="text-dark cl" href="">Kugura Igazeti ya Leta</a> </p>
+           </ul>
+      </div>    
+     <!-----------Ubuzima--------------->   
+     <div class = " row py-4 g-3 text-dark ">
+      <div class = "card border-0 col-md-6 col-lg-4 ">
+      <h2 class=" fs-5 text-muted ">Ubuzima</h2>
+        <ul class=" list1 ol">
+         <p><a class=" text-dark cl" data-bs-toggle="modal" href="#exampleModalToggle">Kwipimisha COVID-19</a></p> 
+        </ul>
+      </div>
+      <div class = "card border-0 col-md-6 col-lg-4 ">
+        <ul class="list3 ol">
+          <p><a class="text-dark cl" href="">Urukingo rwa Yellow Fever</a> </p>
+         </ul>
+    </div> 
+    <div class = "card border-0 col-md-6 col-lg-4 ">
+      <ul class="list3 ol">
+        <p><a class="text-dark cl" href="">Kwishyura Mituweli</a> </p>
+       </ul>
+  </div> 
+  <!-----------Uburezi--------------->
+  <div class = " row py-4 g-3 text-dark ">
+    <div class = "card border-0 col-md-6 col-lg-4 ">
+    <h2 class=" fs-5 text-muted ">Uburezi</h2>
+      <ul class=" list1 ol">
+       <p><a class=" text-dark cl" data-bs-toggle="modal" href="#exampleModalToggle">Icyemezo giha agaciro impamyabushobozi za TVET</a></p> 
+      </ul>
+    </div>
+    <div class = "card border-0 col-md-6 col-lg-4 ">
+      <ul class="list3 ol">
+        <p><a class="text-dark cl" href="">Icyemezo giha agaciro impamyabumenyi zatangiwe mu mahanga - Icyiciro Rusange</a> </p>
+       </ul>
+  </div> 
+  <div class = "card border-0 col-md-6 col-lg-4 ">
+    <ul class="list3 ol">
+      <p><a class="text-dark cl" href="">Gusaba icyemezo giha agaciro impamyabumenyi zatangiwe mu mahanga</a> </p>
+     </ul>
+</div> 
+  <!-----------Ingoro Ndangamurage Z'u Rwanda--------------->
+  <div class = " row py-4 g-3 text-dark ">
+    <div class = "card border-0 col-md-6 col-lg-4 ">
+    <h2 class=" fs-5 text-muted ">Ingoro Ndangamurage Z'u Rwanda</h2>
+      <ul class=" list1 zl">
+       <p><a class=" text-dark cl" data-bs-toggle="modal" href="#exampleModalToggle">Gufata Gahunda yo Gusura</a></p>
+       <p><a class=" text-dark cl" data-bs-toggle="modal" href="#exampleModalToggle">Guhindura Gahunda yo Gusura</a></p> 
+      </ul>
+    </div>
+    <!-----------Transport--------------->
+    <div class = " row py-4 g-3 text-dark ">
+      <div class = "card border-0 col-md-6 col-lg-4 ">
+      <h2 class=" fs-5 text-muted ">Transport</h2>
+        <ul class=" list1 zl">
+         <p><a class=" text-dark cl" data-bs-toggle="modal" href="#exampleModalToggle">Uruhushya rwo gutwara abantu</a></p>
+         <p><a class=" text-dark cl" data-bs-toggle="modal" href="#exampleModalToggle">Uburenganzira bwo gutwara abantu</a></p> 
+        </ul>
+      </div>
+         <!-----------Icyemezo Cy’ubushinjacyaha--------------->
+         <div class = " row py-4 g-3 text-dark ">
+          <div class = "card border-0 col-md-6 col-lg-4 ">
+          <h2 class=" fs-5 text-muted ">Icyemezo Cy’ubushinjacyaha</h2>
+            <ul class=" list1 zl">
+             <p><a class=" text-dark cl" data-bs-toggle="modal" href="#exampleModalToggle">Icyangombwa cyerekana ko umuntu yakatiwe cyangwa atakatiwe n'inkiko.</a></p>
+            </ul>
+          </div>
+            <!-----------Itangazamakuru--------------->
+            <div class = " row py-4 g-3 text-dark ">
+              <div class = "card border-0 col-md-6 col-lg-4 ">
+              <h2 class=" fs-5 text-muted ">Itangazamakuru</h2>
+                <ul class=" list1 yl">
+                 <p><a class=" text-dark cl" data-bs-toggle="modal" href="#exampleModalToggle">Kwemerera Ibitangazamakuru byo mu Mahanga gukorera mu Rwanda</a></p>
+                 <p><a class=" text-dark cl" data-bs-toggle="modal" href="#exampleModalToggle">Gusaba uburenganzira bwo gufata amafoto n'amashusho</a></p> 
+                </ul>
+              </div>
+ </section>
+ <section >
+<footer class="  mx-5">
+<ul class="nav-footer text-center ">
+    <li class="ist-style-type-none">Uburenganzira bw'Irembo 2023 burubahirizwa</li>
+    <li class="fw-bold mx-5"> <a class="fw-bold " href="#"><i class="bi bi-question-circle"></i> Ahatangirwa ubufasha</a></li>
+    <li class=""> Dukurikire kuri <a class="text-muted mx-2" href="#"><i class="bi bi-twitter"></i></a>
+    <a class="text-muted mx-2" href="#"><i class="bi bi-facebook"></i></a>
+    <a class="text-muted mx-2" href="#"><i class="bi bi-linkedin"></i></a>
+    </li>
+    <li class="">
+        <a class="text-dark text-decoration-none" href="#"> Amabwiriza ku mikoreshereze</a>
+    </li>
+    <li>
+        <a class=" text-dark text-decoration-none" href="#">Uko sisitemu ihagaze</a>
+    </li>
+</ul>
+</footer>
 </section>
-    
- 
-
-
  
 
 
